@@ -13,7 +13,8 @@ import androidx.core.view.WindowInsetsCompat
 class MainActivity : AppCompatActivity() {
     var arrSO = arrayOf("Android",
         "iPhone","Windows Phone","Blackberry OS",
-        "Firefox OS","Amazon World","Nokia")
+        "Firefox OS","Amazon World","Nokia",
+        "Sistema Operativo 1", "Sistema Operativo 2")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
